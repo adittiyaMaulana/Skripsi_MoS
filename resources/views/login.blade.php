@@ -12,7 +12,7 @@
     <section>
 
         <div class="imageBox">
-            <img src="{{asset('image/Shchool_Example.jpg')}}" alt="">
+            <img src="{{asset('image/school1.jpg')}}" alt="">
         </div>
 
         <div class="contentBox">
@@ -37,7 +37,7 @@
                     </div>
 
                     <div class="inputBox">
-                        <input type="submit" value="Masuk" name="">
+                        <input type="submit" value="Masuk" name="" >
                     </div>
 
                     <div class="inputBox">
