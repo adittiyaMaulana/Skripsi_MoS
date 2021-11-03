@@ -14,7 +14,6 @@
 </head>
 
 <body>
-
     <!-- sidebar -->
     <div class="sidebar">
         <ul>
@@ -104,24 +103,66 @@
 
     <!-- contentt -->
 
-    <section class="my-content">
+    <div class="my-content">
 
-        <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni voluptates consequatur repellat nulla quo et quidem repellendus dignissimos quod nobis necessitatibus debitis aspernatur sit, facilis voluptate nisi voluptas autem quia....</p>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <!-- Container wrapper -->
+            <div class="container-fluid">
 
-    </section>
+                <!-- Collapsible wrapper -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <!-- Navbar brand -->
+                    <a class="navbar-brand mt-2 " href="#">
+                        <h4>MOS</h4>
+                    </a>
+                    
+                </div>
+
+                <!-- Right elements -->
+                <div class="d-flex align-items-center">
+                    <!-- Icon pengaduan -->
+                    <a class=" d-flex align-items-center mr-3 mt-2" href="#" id="navbarDropdownMenuLink"  >
+                        <span class="icon">
+                            <ion-icon name="chatbox-ellipses" style="font-size: 1.3em; color: #D6C8C8;"></ion-icon>
+                        </span>
+                    </a>
+
+                    <!-- gambar user -->
+                    <a class=" d-flex align-items-center " href="#" id="navbarDropdownMenuLink"  >
+                        <img src="https://mdbootstrap.com/img/new/avatars/2.jpg" class="rounded-circle" height="25" alt="" loading="lazy" />
+                    </a>
+
+                    <!-- nama user -->
+                    <a class=" d-flex align-items-center ml-3 mt-3" href="#"  style="text-decoration: none; color: #404040;" id="navbarDropdownMenuLink"  >
+                        <p>user</p>
+                    </a>
+                   
+                </div>
+            </div>
+        </nav>
+
+        <!-- content 1 profile dan finansial -->
+        <div class="container1">
+            <div class="box">profile</div>
+            <div class="box">financial</div>
+        </div>
 
 
+
+
+    </div>
 
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
-    
+
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-   
+
     <script>
         // menambahkan active class di select list item (agar bisa di select)
         let list = document.querySelectorAll(".list");

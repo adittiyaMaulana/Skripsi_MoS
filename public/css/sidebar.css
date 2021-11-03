@@ -10,7 +10,7 @@
 
 body{
     min-height: 100vh;
-    background: #fff;
+    background: #F0F0F0;
 }
 
 .sidebar{
@@ -45,7 +45,7 @@ body{
 
 /* chose */
 .sidebar ul li.active{
-    background: #fff;
+    background: #F0F0F0;
 }
 
 .sidebar ul li a {

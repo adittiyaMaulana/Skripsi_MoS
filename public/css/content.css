@@ -11,3 +11,22 @@
 .my-content{
     margin-left: 320px;
 }
+
+.container1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.box{
+    width: 454px;
+    height: 312px;
+    margin: 20px;
+    box-sizing: border-box;
+    background: blue;
+
+}
+
