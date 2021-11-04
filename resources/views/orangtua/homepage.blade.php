@@ -14,6 +14,7 @@
 </head>
 
 <body>
+    <!-- ============================================================================================= -->
     <!-- sidebar -->
     <div class="sidebar">
         <ul>
@@ -105,6 +106,7 @@
 
     <div class="my-content">
 
+        <!-- ====================================================================================== -->
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg navbar-light ">
             <!-- Container wrapper -->
@@ -116,41 +118,97 @@
                     <a class="navbar-brand mt-2 " href="#">
                         <h4>MOS</h4>
                     </a>
-                    
+
                 </div>
 
                 <!-- Right elements -->
                 <div class="d-flex align-items-center">
                     <!-- Icon pengaduan -->
-                    <a class=" d-flex align-items-center mr-3 mt-2" href="#" id="navbarDropdownMenuLink"  >
+                    <a class=" d-flex align-items-center mr-3 mt-2" href="#" id="navbarDropdownMenuLink">
                         <span class="icon">
                             <ion-icon name="chatbox-ellipses" style="font-size: 1.3em; color: #D6C8C8;"></ion-icon>
                         </span>
                     </a>
 
                     <!-- gambar user -->
-                    <a class=" d-flex align-items-center " href="#" id="navbarDropdownMenuLink"  >
+                    <a class=" d-flex align-items-center " href="#" id="navbarDropdownMenuLink">
                         <img src="https://mdbootstrap.com/img/new/avatars/2.jpg" class="rounded-circle" height="25" alt="" loading="lazy" />
                     </a>
 
                     <!-- nama user -->
-                    <a class=" d-flex align-items-center ml-3 mt-3" href="#"  style="text-decoration: none; color: #404040;" id="navbarDropdownMenuLink"  >
+                    <a class=" d-flex align-items-center ml-3 mt-3" href="#" style="text-decoration: none; color: #404040;" id="navbarDropdownMenuLink">
                         <p>user</p>
                     </a>
-                   
+
                 </div>
             </div>
         </nav>
 
+        <!-- ===================================================================== -->
         <!-- content 1 profile dan finansial -->
+
         <div class="container1">
-            <div class="box">profile</div>
-            <div class="box">financial</div>
+            <div class="box">
+
+                <!-- ==================== bagian profile======================== -->
+                <div class="profile">
+                    <img src="https://mdbootstrap.com/img/new/avatars/2.jpg" class="rounded-circle" height="105" alt="" loading="lazy" />
+                    <h4>Username</h4>
+                    <h5 class="nis">NIS</h5>
+                    <h5>Email</h5>
+
+                </div>
+            </div>
+
+            <!-- ====================== bagian finansial ========================== -->
+            <div class="box">
+                <div class="finansial_sebagian">
+                    <p style="text-align:left;">
+                        History Pembayaran
+                        <a href="#"><span style="float:right;">
+                            Lihat Semua >>>
+                        </span></a>
+                    </p>
+
+                    <table class="table table-borderless">
+                        <thead>
+                            <tr>
+                                <th scope="col">First</th>
+                                <th scope="col">Last</th>
+                                <th scope="col">Handle</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>@mdo</td>
+                            </tr>
+                            <tr>
+                                <td>Jacob</td>
+                                <td>Thornton</td>
+                                <td>@fat</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">Larry the Bird</td>
+                                <td>@twitter</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+
+            <!-- enddd content 1 -->
         </div>
 
+        <!-- ===================================================================== -->
+        <!-- Berita -->
+
+        <h3 class="title_berita">Berita</h3>
 
 
-
+        <!-- end my-content / semua content -->
     </div>
 
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
