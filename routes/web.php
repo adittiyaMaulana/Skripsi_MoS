@@ -23,4 +23,4 @@ Route::get('/login', 'LoginLogoutController@Login');
 
 
 // Ortu
-Route::get('/homepage', 'OrangTuaController@homepage');
+Route::get('/homepage', 'ortu\OrangTuaController@homepage');
