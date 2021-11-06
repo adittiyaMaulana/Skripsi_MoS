@@ -18,9 +18,11 @@ use Illuminate\Support\Facades\Route;
 // });
 
 // Loginnn
-Route::get('/login', 'LoginLogoutController@Login');
-
-
+// Route::get('/login', 'LoginLogoutController@Login');
 
 // Ortu
 Route::get('/homepage', 'ortu\OrangTuaController@homepage');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
