@@ -22,6 +22,15 @@ use Illuminate\Support\Facades\Route;
 
 // Ortu
 Route::get('/homepage', 'ortu\OrangTuaController@homepage');
+// Route::get('/jadwal', 'ortu\OrangTuaController@');
+// Route::get('/finansial', 'ortu\OrangTuaController@');
+// Route::get('/berita', 'ortu\OrangTuaController@');
+// Route::get('/nilai', 'ortu\OrangTuaController@');
+// Route::get('/kehadiran', 'ortu\OrangTuaController@');
+// Route::get('/fiturBantuan', 'ortu\OrangTuaController@');
+// Route::get('/tentangSekolah', 'ortu\OrangTuaController@');
+// Route::get('/pesan', 'ortu\OrangTuaController@');
+// Route::get('/pusatBantuan', 'ortu\OrangTuaController@');
 
 Auth::routes();
 
