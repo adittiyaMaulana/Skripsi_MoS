@@ -22,15 +22,16 @@ use Illuminate\Support\Facades\Route;
 
 // Ortu
 Route::get('/homepage', 'ortu\OrangTuaController@homepage');
-// Route::get('/jadwal', 'ortu\OrangTuaController@');
-// Route::get('/finansial', 'ortu\OrangTuaController@');
-// Route::get('/berita', 'ortu\OrangTuaController@');
-// Route::get('/nilai', 'ortu\OrangTuaController@');
-// Route::get('/kehadiran', 'ortu\OrangTuaController@');
-// Route::get('/fiturBantuan', 'ortu\OrangTuaController@');
-// Route::get('/tentangSekolah', 'ortu\OrangTuaController@');
-// Route::get('/pesan', 'ortu\OrangTuaController@');
-// Route::get('/pusatBantuan', 'ortu\OrangTuaController@');
+Route::get('/jadwalKelas', 'ortu\OrangTuaController@jadwalKelas');
+Route::get('/jadwalNonAkademik', 'ortu\OrangTuaController@jadwalNonAkademik');
+Route::get('/finansial', 'ortu\OrangTuaController@finansial');
+Route::get('/berita', 'ortu\OrangTuaController@berita');
+Route::get('/nilai', 'ortu\OrangTuaController@nilai');
+Route::get('/kehadiran', 'ortu\OrangTuaController@kehadiran');
+Route::get('/fiturBantuan', 'ortu\OrangTuaController@fiturBantuan');
+Route::get('/tentangSekolah', 'ortu\OrangTuaController@tentangSekolah');
+Route::get('/pesan', 'ortu\OrangTuaController@pesan');
+Route::get('/pusatBantuan', 'ortu\OrangTuaController@pusatBantuan');
 
 Auth::routes();
 

@@ -9,13 +9,15 @@
 
     <link rel="stylesheet" href="{{asset('css/sidebar.css')}}">
     <link rel="stylesheet" href="{{asset('css/content.css')}}">
-    <title>jadwalKelas</title>
+    <title>Berita</title>
 </head>
 <body>
+    <!-- ============================================================================================= -->
+    <!-- sidebar -->
     <div class="sidebar">
         <ul>
             <li class="list">
-                <a href="#">
+                <a href="/homepage">
                     <span class="icon">
                         <ion-icon name="home-outline"></ion-icon>
                     </span>
@@ -24,16 +26,16 @@
             </li>
 
             <li class="list">
-                <a href="#">
+                <a href="/jadwal">
                     <span class="icon">
                         <ion-icon name="calendar-outline"></ion-icon>
                     </span>
-                    <span class="title">jadwal</span>
+                    <span class="title">Jadwal</span>
                 </a>
             </li>
 
             <li class="list">
-                <a href="#">
+                <a href="/finansial">
                     <span class="icon">
                         <ion-icon name="wallet-outline"></ion-icon>
                     </span>
@@ -42,7 +44,7 @@
             </li>
 
             <li class="list active">
-                <a href="#">
+                <a href="/berita">
                     <span class="icon">
                         <ion-icon name="newspaper-outline"></ion-icon>
                     </span>
@@ -51,7 +53,7 @@
             </li>
 
             <li class="list">
-                <a href="#">
+                <a href="/nilai">
                     <span class="icon">
                         <ion-icon name="bar-chart-outline"></ion-icon>
                     </span>
@@ -60,7 +62,7 @@
             </li>
 
             <li class="list">
-                <a href="#">
+                <a href="/kehadiran">
                     <span class="icon">
                         <ion-icon name="create-outline"></ion-icon>
                     </span>
@@ -69,7 +71,7 @@
             </li>
 
             <li class="list">
-                <a href="#">
+                <a href="/fiturBantuan">
                     <span class="icon">
                         <ion-icon name="download-outline"></ion-icon>
                     </span>
@@ -78,7 +80,7 @@
             </li>
 
             <li class="list">
-                <a href="#">
+                <a href="/tentangSekolah">
                     <span class="icon">
                         <ion-icon name="alert-circle-outline"></ion-icon>
                     </span>
@@ -98,51 +100,55 @@
         </ul>
     </div>
 
+    <!-- contentt -->
 
-   <!-- ====================================================================================== -->
-           <!-- Navbar -->
-           <nav class="navbar navbar-expand-lg navbar-light ">
+    <div class="my-content">
+
+        <!-- ====================================================================================== -->
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light ">
             <!-- Container wrapper -->
             <div class="container-fluid">
 
                 <!-- Collapsible wrapper -->
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse">
                     <!-- Navbar brand -->
-                    <a class="navbar-brand mt-2 " href="#">
+                    <a class="navbar-brand mt-2">
                         <h4>Pengumuman</h4>
                     </a>
-
                 </div>
 
                 <!-- Right elements -->
                 <div class="d-flex align-items-center">
                     <!-- Icon pengaduan -->
-                    <a class=" d-flex align-items-center mr-3 mt-2" href="#" id="navbarDropdownMenuLink">
+                    <a class=" d-flex align-items-center mr-3 mt-2" href="/pusatBantuan">
                         <span class="icon">
                             <ion-icon name="chatbox-ellipses" style="font-size: 1.3em; color: #D6C8C8;"></ion-icon>
                         </span>
                     </a>
                     
                     <!-- Icon pesan -->
-                    <a class=" d-flex align-items-center mr-3 mt-2" href="#" id="navbarDropdownMenuLink">
+                    <a class=" d-flex align-items-center mr-3 mt-2" href="/pesan">
                         <span class="icon">
                             <ion-icon name="mail" style="font-size: 1.3em; color: #D6C8C8;"></ion-icon>
                         </span>
                     </a>
 
                     <!-- gambar user -->
-                    <a class=" d-flex align-items-center " href="#" id="navbarDropdownMenuLink">
+                    <a class=" d-flex align-items-center">
                         <img src="https://mdbootstrap.com/img/new/avatars/2.jpg" class="rounded-circle" height="25" alt="" loading="lazy" />
                     </a>
 
                     <!-- nama user -->
-                    <a class=" d-flex align-items-center ml-3 mt-3" href="#" style="text-decoration: none; color: #404040;" id="navbarDropdownMenuLink">
+                    <a class=" d-flex align-items-center ml-3 mt-3" style="text-decoration: none; color: #404040;">
                         <p>user</p>
                     </a>
 
                 </div>
             </div>
         </nav>
+
+    </div>
 
 
 

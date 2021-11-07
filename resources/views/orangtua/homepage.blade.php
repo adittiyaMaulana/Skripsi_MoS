@@ -10,7 +10,7 @@
 
     <link rel="stylesheet" href="{{asset('css/sidebar.css')}}">
     <link rel="stylesheet" href="{{asset('css/content.css')}}">
-    <title>Sidebar</title>
+    <title>Home</title>
 </head>
 
 <body>
@@ -28,7 +28,7 @@
             </li>
 
             <li class="list">
-                <a href="/jadwal">
+                <a href="/jadwalKelas">
                     <span class="icon">
                         <ion-icon name="calendar-outline"></ion-icon>
                     </span>
@@ -37,7 +37,7 @@
             </li>
 
             <li class="list">
-                <a href="#">
+                <a href="/finansial">
                     <span class="icon">
                         <ion-icon name="wallet-outline"></ion-icon>
                     </span>
@@ -46,7 +46,7 @@
             </li>
 
             <li class="list">
-                <a href="#">
+                <a href="/berita">
                     <span class="icon">
                         <ion-icon name="newspaper-outline"></ion-icon>
                     </span>
@@ -55,7 +55,7 @@
             </li>
 
             <li class="list">
-                <a href="#">
+                <a href="/nilai">
                     <span class="icon">
                         <ion-icon name="bar-chart-outline"></ion-icon>
                     </span>
@@ -64,7 +64,7 @@
             </li>
 
             <li class="list">
-                <a href="#">
+                <a href="/kehadiran">
                     <span class="icon">
                         <ion-icon name="create-outline"></ion-icon>
                     </span>
@@ -73,7 +73,7 @@
             </li>
 
             <li class="list">
-                <a href="#">
+                <a href="/fiturBantuan">
                     <span class="icon">
                         <ion-icon name="download-outline"></ion-icon>
                     </span>
@@ -82,7 +82,7 @@
             </li>
 
             <li class="list">
-                <a href="#">
+                <a href="/tentangSekolah">
                     <span class="icon">
                         <ion-icon name="alert-circle-outline"></ion-icon>
                     </span>

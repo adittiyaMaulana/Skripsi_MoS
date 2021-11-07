@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,13 +10,17 @@
 
     <link rel="stylesheet" href="{{asset('css/sidebar.css')}}">
     <link rel="stylesheet" href="{{asset('css/content.css')}}">
-    <title>jadwalNonAka</title>
+    <link rel="stylesheet" href="{{asset('css/jadwal.css')}}">
+    <title>Jadwal Non Akademik</title>
 </head>
+
 <body>
+    <!-- ============================================================================================= -->
+    <!-- sidebar -->
     <div class="sidebar">
         <ul>
             <li class="list">
-                <a href="#">
+                <a href="/homepage">
                     <span class="icon">
                         <ion-icon name="home-outline"></ion-icon>
                     </span>
@@ -24,16 +29,16 @@
             </li>
 
             <li class="list active">
-                <a href="#">
+                <a href="/jadwalKelas">
                     <span class="icon">
                         <ion-icon name="calendar-outline"></ion-icon>
                     </span>
-                    <span class="title">jadwal</span>
+                    <span class="title">Jadwal</span>
                 </a>
             </li>
 
             <li class="list">
-                <a href="#">
+                <a href="/finansial">
                     <span class="icon">
                         <ion-icon name="wallet-outline"></ion-icon>
                     </span>
@@ -42,7 +47,7 @@
             </li>
 
             <li class="list">
-                <a href="#">
+                <a href="/berita">
                     <span class="icon">
                         <ion-icon name="newspaper-outline"></ion-icon>
                     </span>
@@ -51,7 +56,7 @@
             </li>
 
             <li class="list">
-                <a href="#">
+                <a href="/nilai">
                     <span class="icon">
                         <ion-icon name="bar-chart-outline"></ion-icon>
                     </span>
@@ -60,7 +65,7 @@
             </li>
 
             <li class="list">
-                <a href="#">
+                <a href="/kehadiran">
                     <span class="icon">
                         <ion-icon name="create-outline"></ion-icon>
                     </span>
@@ -69,7 +74,7 @@
             </li>
 
             <li class="list">
-                <a href="#">
+                <a href="/fiturBantuan">
                     <span class="icon">
                         <ion-icon name="download-outline"></ion-icon>
                     </span>
@@ -78,7 +83,7 @@
             </li>
 
             <li class="list">
-                <a href="#">
+                <a href="/tentangSekolah">
                     <span class="icon">
                         <ion-icon name="alert-circle-outline"></ion-icon>
                     </span>
@@ -96,6 +101,19 @@
             </li>
 
         </ul>
+    </div>
+
+    <!-- contentt -->
+
+    <div class="my-content">
+
+        <div class="navbar">
+            <ul>
+                <li class="isi"><a href="/jadwalKelas">Akademik</a></li>
+                <li class="isi"><a class="active" href="/jadwalNonAkademik">Non Akademik</a></li>
+            </ul>
+        </div>
+
     </div>
 
 
@@ -125,4 +143,5 @@
     </script>
 
 </body>
+
 </html>
