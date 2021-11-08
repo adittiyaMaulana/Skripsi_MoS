@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,8 +10,10 @@
 
     <link rel="stylesheet" href="{{asset('css/sidebar.css')}}">
     <link rel="stylesheet" href="{{asset('css/content.css')}}">
+    <link rel="stylesheet" href="{{asset('css/tentangsekolah.css')}}">
     <title>Tentang Sekolah</title>
 </head>
+
 <body>
     <!-- ============================================================================================= -->
     <!-- sidebar -->
@@ -104,6 +107,49 @@
 
     <div class="my-content">
 
+        <div class="gambar">
+            <img class=" mt-3 mr-3" src="{{asset('image/school1.jpg')}}" alt="">
+        </div>
+
+        <div class="container-tentang-sekolah">
+            <div class="box-tentang-sekolah">
+                <div class="center">
+                    <p>Tentang Kami</p>
+                </div>
+            </div>
+
+            <div class="box-tentang-sekolah">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga aperiam soluta laudantium numquam nam asperiores quidem, eveniet dolor atque ducimus at ullam saepe? Vero magnam, quod odit dolore quidem illum.
+                Odio inventore ut dolor reprehenderit quae! Libero quisquam cum cumque saepe vel, dolores labore neque consequuntur alias tempora obcaecati, sed explicabo totam repudiandae molestiae consectetur, veritatis suscipit iure facilis nulla?</p>
+            </div>
+        </div>
+        
+
+        <div class="visi-misi">
+            <div class="box-visi-misi">
+                <div class="judul-visi-misi">
+                    <p>Visi</p>    
+                </div>
+
+                <div class="isi-visi-misi">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam repellat corporis voluptas quam at pariatur dolorem nemo atque, laborum id molestiae assumenda animi! Voluptatum excepturi pariatur perspiciatis, repudiandae vel suscipit.</p>
+                </div>
+            </div>
+            
+            <div class="box-visi-misi">
+                <div class="judul-visi-misi">
+                    <p>Misi</p>
+                </div>
+
+                <div class="isi-visi-misi">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia cum soluta sed eos porro laborum, quas quod cumque debitis sunt? Ullam, qui ad! Natus nostrum minus nam voluptatibus placeat possimus?
+                </div>
+            </div>
+
+        </div>
+
+
+
 
 
     </div>
@@ -135,4 +181,5 @@
     </script>
 
 </body>
+
 </html>
