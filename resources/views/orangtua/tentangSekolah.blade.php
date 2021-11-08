@@ -148,6 +148,13 @@
 
         </div>
 
+        <div class="struktur-organisasi">
+            <p>Struktur organisasi</p>
+
+            
+
+        </div>
+
 
 
 
