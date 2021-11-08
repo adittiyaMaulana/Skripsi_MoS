@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,10 +8,20 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
+    <!-- tambahan -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.11.3/js/dataTables.bootstrap5.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.3/css/dataTables.bootstrap5.min.css">
+    <!--  -->
+
     <link rel="stylesheet" href="{{asset('css/sidebar.css')}}">
     <link rel="stylesheet" href="{{asset('css/content.css')}}">
     <title>Kehadiran</title>
 </head>
+
 <body>
     <!-- ============================================================================================= -->
     <!-- sidebar -->
@@ -126,7 +137,7 @@
                             <ion-icon name="chatbox-ellipses" style="font-size: 1.3em; color: #D6C8C8;"></ion-icon>
                         </span>
                     </a>
-                    
+
                     <!-- Icon pesan -->
                     <a class=" d-flex align-items-center mr-3 mt-2" href="/pesan">
                         <span class="icon">
@@ -148,10 +159,75 @@
             </div>
         </nav>
 
+        <!-- table -->
+
+        <div class="my-table mt-5">
+            <table id="example" class="table table-hover" style="width:100%">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Kelas</th>
+                        <th>Semester</th>
+                        <th>Office</th>
+                        <th>Age</th>
+                        <th>Start date</th>
+                        <th>Salary</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Kelas 7</td>
+                        <td>System Architect</td>
+                        <td>Edinburgh</td>
+                        <td>67</td>
+                        <td>2011/04/25</td>
+                        <td>$320,800</td>
+                    </tr>
+                    <tr>
+                        <td>Kelas 9</td>
+                        <td>System Architect</td>
+                        <td>Edinburgh</td>
+                        <td>56</td>
+                        <td>2011/04/25</td>
+                        <td>$320,800</td>
+                    </tr>
+                    <tr>
+                        <td>Kelas 9</td>
+                        <td>System Architect</td>
+                        <td>Edinburgh</td>
+                        <td>66</td>
+                        <td>2011/04/25</td>
+                        <td>$320,800</td>
+                    </tr>
+                    <tr>
+                        <td>Kelas 8</td>
+                        <td>System Architect</td>
+                        <td>Edinburgh</td>
+                        <td>20</td>
+                        <td>2011/04/25</td>
+                        <td>$320,800</td>
+                    </tr>
+                    <tr>
+                        <td>Kelas 7</td>
+                        <td>System Architect</td>
+                        <td>Edinburgh</td>
+                        <td>1</td>
+                        <td>2011/04/25</td>
+                        <td>$320,800</td>
+                    </tr>
+                    <tr>
+                        <td>Kelas 9</td>
+                        <td>System Architect</td>
+                        <td>Edinburgh</td>
+                        <td>6</td>
+                        <td>2011/04/25</td>
+                        <td>$320,800</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+
     </div>
-
-
-
 
 
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
@@ -178,5 +254,17 @@
         }
     </script>
 
+    <!-- untuk table -->
+    <script>
+        $(document).ready(function() {
+            $("#example").DataTable({
+                "order": [
+                    [0, "desc"] //sorting dari besar ke kecil
+                ]
+            });
+        });
+    </script>
+
 </body>
+
 </html>

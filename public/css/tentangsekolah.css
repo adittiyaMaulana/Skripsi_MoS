@@ -26,6 +26,7 @@
 /* center text tentang kami */
 .center p{
     position: absolute;
+    font-weight: 700;
     margin: 0;
     top: 50%;
     left: 50%;
@@ -56,4 +57,15 @@
     text-align: center;
     color: white;
     font-weight: 300;
+    padding-bottom: 20px;
 }
+
+/* struktur organisasi */
+.struktur-organisasi p {
+    font-weight: 700;
+    font-size: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
