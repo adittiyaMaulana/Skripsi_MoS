@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,8 +10,10 @@
 
     <link rel="stylesheet" href="{{asset('css/sidebar.css')}}">
     <link rel="stylesheet" href="{{asset('css/content.css')}}">
+    <link rel="stylesheet" href="{{asset('css/pusatbantuan.css')}}">
     <title>Pusat Bantuan</title>
 </head>
+
 <body>
     <!-- ============================================================================================= -->
     <!-- sidebar -->
@@ -126,7 +129,7 @@
                             <ion-icon name="chatbox-ellipses" style="font-size: 1.3em; color: #D6C8C8;"></ion-icon>
                         </span>
                     </a>
-                    
+
                     <!-- Icon pesan -->
                     <a class=" d-flex align-items-center mr-3 mt-2" href="/pesan">
                         <span class="icon">
@@ -147,6 +150,25 @@
                 </div>
             </div>
         </nav>
+
+        <div class="pusatbantuan">
+            <p>Hallo, ada yang bisa kami bantu ?</p>
+        </div>
+
+        <form>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Judul Permasalahan</label>
+                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Masukan Permasalahan</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Kirim</button>
+        </form>
+
+
 
     </div>
 
@@ -177,4 +199,5 @@
     </script>
 
 </body>
+
 </html>

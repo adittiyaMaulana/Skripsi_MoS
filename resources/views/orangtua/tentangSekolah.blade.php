@@ -107,10 +107,12 @@
 
     <div class="my-content">
 
+        <!-- gambar -->
         <div class="gambar">
             <img class=" mt-3 mr-3" src="{{asset('image/school1.jpg')}}" alt="">
         </div>
 
+        <!-- tentang sekolah -->
         <div class="container-tentang-sekolah">
             <div class="box-tentang-sekolah">
                 <div class="center">
@@ -125,6 +127,7 @@
         </div>
         
 
+        <!-- visi misi -->
         <div class="visi-misi">
             <div class="box-visi-misi">
                 <div class="judul-visi-misi">
@@ -151,7 +154,7 @@
         <div class="struktur-organisasi">
             <p>Struktur organisasi</p>
 
-            
+
 
         </div>
 
