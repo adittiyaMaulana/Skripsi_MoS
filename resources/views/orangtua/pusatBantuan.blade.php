@@ -151,6 +151,7 @@
             </div>
         </nav>
 
+        <!-- bagian form -->
         <div class="pusatbantuan">
             <p>Hallo, ada yang bisa kami bantu ?</p>
         </div>
@@ -167,8 +168,6 @@
 
             <button type="submit" class="btn btn-primary">Kirim</button>
         </form>
-
-
 
     </div>
 
